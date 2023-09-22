@@ -1,0 +1,36 @@
+package 제어문.반복문;
+
+import java.util.Scanner;
+
+public class UpDownGame {
+
+	public static void main(String[] args) {
+
+		int ans = 73;
+		int count = 0;
+		int no = 0;
+
+		while (true) {
+
+			Scanner sc = new Scanner(System.in);
+			System.out.print("숫자를 입력하세요 >>>");
+			int what = sc.nextInt();
+
+			if (what == ans) {
+				System.out.println("정답입니다 축하합니다!! 총 입력횟수 >> " + count);
+				break;
+			} else if (what > ans) {
+				System.out.println("정답이 아닙니다 숫자를 낮춰보세요");
+				no++;
+				System.out.println("틀린 횟수 = " + no);
+			} else {
+				System.out.println("정답이 아닙니다 숫자를 높여보세요");
+				no++;
+				System.out.println("틀린 횟수 = " + no);
+			}
+			count++;
+		}
+
+	}
+
+}

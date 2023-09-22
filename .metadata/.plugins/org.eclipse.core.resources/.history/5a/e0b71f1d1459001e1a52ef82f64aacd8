@@ -1,0 +1,30 @@
+package 제어문.반복문;
+
+import java.util.Scanner;
+
+public class 반복문확인문제2 {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("숫자입력1 >> ");
+		int n1 = sc.nextInt();
+		System.out.println("숫자입력2 >> ");
+		int n2 = sc.nextInt();
+		
+		String repeat = "";
+		
+		if(n1>n2) {
+			System.out.println("앞 숫자가 더 큽니다.");
+			System.out.println(" 더 하시겠습니까? 종료(x), 계속(o) >>>  ");
+//			repeat = sc.next();
+		}else {
+			System.out.println("뒷 숫자가 더 큽니다.");
+		}
+		
+		
+	}
+
+}

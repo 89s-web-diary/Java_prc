@@ -1,0 +1,14 @@
+package 제어문.반복문;
+
+import java.util.Random;
+
+public class RandomTest {
+
+	public static void main(String[] args) {
+		
+		Random r = new Random();
+		System.out.println(r.nextInt());
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package 제어문.조건문;
+
+import java.util.Date;
+
+public class Date확인문제3 {
+
+	public static void main(String[] args) {
+		
+		Date date = new Date();
+		int mon = date.getMonth();
+		
+		if(mon ==2) {
+			System.out.println("28일까지");
+		}else if(mon == 4 || mon == 6 || mon == 9 || mon ==11) {
+			System.out.println("30일까지");
+		}else {
+			System.out.println("31일까지");
+		}
+		
+		
+	}
+
+}

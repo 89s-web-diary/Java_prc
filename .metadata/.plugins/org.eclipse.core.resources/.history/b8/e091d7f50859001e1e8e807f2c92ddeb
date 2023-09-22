@@ -1,0 +1,15 @@
+package 제어문.반복문;
+
+public class 반복문확인문제1 {
+
+	public static void main(String[] args) {
+
+		int i = 0;
+		while (i < 10) {
+			System.out.print("*");
+			i++;
+		}
+
+	}
+
+}
