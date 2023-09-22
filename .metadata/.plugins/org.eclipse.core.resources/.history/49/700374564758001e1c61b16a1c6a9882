@@ -1,0 +1,12 @@
+package quiz;
+
+public class RealQuiz1 {
+
+		int a = 0; 
+		int b = 10;
+		
+		int res = a+b;
+				
+	}
+
+}

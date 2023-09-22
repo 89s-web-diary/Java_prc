@@ -1,0 +1,33 @@
+package 제어문.순차문;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class 화면만들기2 {
+
+	public static void main(String[] args) {
+		
+		// 1. 필요한 부품을 ram에 다 준비
+		// JFrame f
+		// JButton b
+		// JTextField t1
+		// JTextField t2
+		// JTextField t3
+		// FlowLayout flow
+		
+		JFrame f = new JFrame();
+		JButton b = new JButton();
+		JTextField t1 = new JTextField();
+		JTextField t2 = new JTextField();
+		JTextField t3 = new JTextField();
+		FlowLayout flow = new FlowLayout();
+		
+		
+		
+		
+	}
+
+}

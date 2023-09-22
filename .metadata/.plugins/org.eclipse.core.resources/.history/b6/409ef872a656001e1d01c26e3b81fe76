@@ -1,0 +1,21 @@
+package 연산자;
+
+import javax.swing.JOptionPane;
+
+public class Prc1 {
+
+	public static void main(String[] args) {
+		while (true) {
+			String id = "p";
+			String id2 = JOptionPane.showInputDialog("암호를 입력하세요");
+
+			if (id.equals(id2)) {
+				JOptionPane.showMessageDialog(null, "PASS!");
+				break;
+			} else {
+				JOptionPane.showMessageDialog(null, "재입력!");
+			}
+		}
+	}
+
+}

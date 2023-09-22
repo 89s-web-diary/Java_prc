@@ -1,0 +1,16 @@
+package test;
+
+public class Friend {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name = "홍길동";
+		int age = 200;
+		String live = "홍천";
+		double weight = 88.8;
+		
+		boolean program = true;
+		
+	}
+
+}

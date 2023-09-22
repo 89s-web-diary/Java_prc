@@ -1,0 +1,3 @@
+else if (jumsu >= 80) {
+			res = "BÇÐÁ¡";
+		}

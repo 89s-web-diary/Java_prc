@@ -1,0 +1,21 @@
+package practice;
+
+import javax.swing.JOptionPane;
+
+public class Exam02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String height = JOptionPane.showInputDialog("키를 입력해주세요");
+
+		double hgt = Double.parseDouble(height);
+
+		double wgt = (hgt - 100) * 0.9;
+
+		JOptionPane.showMessageDialog(null, "적정 몸무게는 " + wgt + "입니다");
+		System.out.printf("적정 몸무게는 %.3f입니다",wgt);
+
+	}
+
+}

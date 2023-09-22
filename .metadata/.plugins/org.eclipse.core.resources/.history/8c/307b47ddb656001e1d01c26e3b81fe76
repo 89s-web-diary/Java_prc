@@ -1,0 +1,21 @@
+package 제어문.순차문;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class 화면만들기 {
+
+	public static void main(String[] args) {
+		
+		JFrame f = new JFrame();
+		JButton b = new JButton();
+		JTextField t1 = new JTextField();
+		JTextField t2 = new JTextField();
+		JTextField t3 = new JTextField();
+		
+		f.setSize(300, 300);
+		f.isShowing();
+	}
+
+}
