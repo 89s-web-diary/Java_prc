@@ -1,0 +1,19 @@
+package 제어문.순차문;
+
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Scanner연습 {
+
+	public static void main(String[] args) {
+		
+		Scanner name = new Scanner(System.in);
+		System.out.println("나이 입력 >>");
+		
+		
+		
+	}
+
+}

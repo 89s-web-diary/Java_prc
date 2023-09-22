@@ -1,0 +1,19 @@
+package 제어문.순차문;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Scanner연습 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		// 컨트롤 + 쉬프트 + M >>>> 임포트 필요한부분 자동으로 추가(부품 자동 추가)
+		System.out.print("아무말이나 한번 써보시오 >>> ");
+		String a = sc.next();
+		System.out.println(a);
+		
+	}
+
+}
