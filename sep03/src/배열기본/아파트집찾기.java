@@ -25,6 +25,10 @@ public class 아파트집찾기 {
 		System.out.println(s[0] + s[2]);
 		System.out.println(s[0] == s[2]);
 		
+		for(int i : s) {
+			System.out.println(i);
+		}
+		
 	}
 
 }
