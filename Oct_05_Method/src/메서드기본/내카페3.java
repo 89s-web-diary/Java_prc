@@ -14,7 +14,9 @@ public class 내카페3 {
 		int total = cal.add(cal.mul(cnt1, prc), cal.mul(cnt2, prc));
 		System.out.println("오늘 하루 총 결제금액은 " + total + "원 입니다");
 		System.out.println("1인당 결제 금액은 " + cal.div(total, sum) + "원 입니다");
-
+		
+		
+		
 	}
 
 }
