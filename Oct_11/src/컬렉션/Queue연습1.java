@@ -2,7 +2,7 @@ package 컬렉션;
 
 import java.util.LinkedList;
 
-public class Queue확인문제 {
+public class Queue연습1 {
 
 	public static void main(String[] args) {
 
