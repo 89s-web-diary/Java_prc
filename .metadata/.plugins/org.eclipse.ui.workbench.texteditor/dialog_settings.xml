@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="index"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="update"/>
+			<item value="select"/>
+			<item value="namet"/>
+			<item value="idt"/>
+			<item value="id"/>
 			<item value="cont"/>
 			<item value="국내종목"/>
 			<item value="llist2"/>
@@ -18,13 +23,11 @@
 			<item value="name"/>
 			<item value="time"/>
 			<item value="b1"/>
-			<item value="b2"/>
-			<item value="l2"/>
-			<item value="l1"/>
-			<item value="내답"/>
-			<item value="답안"/>
 		</list>
 		<list key="replacehistory">
+			<item value="t2"/>
+			<item value="t1"/>
+			<item value="idl"/>
 			<item value="index"/>
 			<item value="list2"/>
 			<item value="llist2"/>
@@ -37,9 +40,6 @@
 			<item value="reset"/>
 			<item value="login"/>
 			<item value="pw"/>
-			<item value="id"/>
-			<item value="my"/>
-			<item value="ans"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

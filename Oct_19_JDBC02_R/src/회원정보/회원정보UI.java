@@ -63,7 +63,9 @@ public class 회원정보UI {
 				bag.setPw(pw);
 				bag.setName(name);
 				bag.setTel(tel);
-				dao.insert(bag);
+				int res = dao.insert(bag);
+				if(res == 1) JOptionPane.showMessageDialog(f, "가입 성공");
+				else JOptionPane.showMessageDialog(f, "존재하는 ID입니다");
 			}
 		});
 		
@@ -99,7 +101,11 @@ public class 회원정보UI {
 			public void actionPerformed(ActionEvent e) {
 				String id = JOptionPane.showInputDialog("검색하고 싶은 아이디 입력");
 				MemberDAO dao = new MemberDAO();
-				dao.select(id);
+				MemberVO bag = dao.select(id);
+				idt.setText(bag.getId());
+				pwt.setText(bag.getPw());
+				namet.setText(bag.getId());
+				telt.setText(bag.getTel());
 			}
 		});
 		

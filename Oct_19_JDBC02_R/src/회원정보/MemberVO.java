@@ -34,4 +34,9 @@ public class MemberVO {
 		this.tel = tel;
 	}
 	
+	public String toString() {
+		return "가방데이터 [id=" + id + ", pw=" + pw + ", name=" + name + ", tel=" + tel + "]";
+	}
+	
+	
 }

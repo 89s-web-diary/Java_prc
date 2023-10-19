@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="상속.슈퍼맨"/>
-<fullyQualifiedTypeName name="상속.원더우먼"/>
-<fullyQualifiedTypeName name="상속.학용품"/>
-<fullyQualifiedTypeName name="상속.볼펜"/>
-<fullyQualifiedTypeName name="상속.샵스레드"/>
-<fullyQualifiedTypeName name="상속.감소스레드"/>
-<fullyQualifiedTypeName name="상속.증가스레드"/>
 <fullyQualifiedTypeName name="상속.별스레드"/>
 <fullyQualifiedTypeName name="컬렉션.ArrayList확인문제"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
@@ -45,19 +38,26 @@
 <fullyQualifiedTypeName name="com.mysql.cj.jdbc.exceptions.ConnectionFeatureNotAvailableException"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="DB연결.MemberDAO"/>
-<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="DB연결.BbsDAO"/>
-<fullyQualifiedTypeName name="java.awt.FlowLayout"/>
-<fullyQualifiedTypeName name="javax.swing.JFrame"/>
-<fullyQualifiedTypeName name="javax.swing.JTextField"/>
 <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
-<fullyQualifiedTypeName name="javax.swing.JButton"/>
 <fullyQualifiedTypeName name="게시판정보.게시판UI"/>
-<fullyQualifiedTypeName name="java.awt.Color"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="회원정보.MemberDAO"/>
+<fullyQualifiedTypeName name="회원정보.MemberVO"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="상품정보.ProductDAO"/>
+<fullyQualifiedTypeName name="상품정보.ProductVO"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="상품정보.상품수정"/>
 </qualifiedTypeNameHistroy>
