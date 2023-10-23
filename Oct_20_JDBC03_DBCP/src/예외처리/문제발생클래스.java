@@ -18,6 +18,8 @@ public class 문제발생클래스 {
 			System.out.println("배열 인덱스 에러 발생");
 		} catch (Exception e) {	// 수학연산에러, 배열에러도 아닌 경우
 			System.out.println("기타 에러 발생함.");
+		} finally {
+			System.out.println("에러 처리 끝");
 		}
 		
 		System.out.println("3. 여기는 가능??");
