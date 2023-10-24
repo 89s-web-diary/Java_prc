@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+*{
+	text-align: center;
+}
+td {
+	text-align: center;
+}
+
+button {
+	font-size: 15px;
+}
+
+input {
+	font-size: 20px
+}
+textarea {
+	font-size: 20px
+}
+.left {
+	background: yellow;
+	font-size: 20px;
+	width: 200px;
+}
+input {
+	background: lightgray;
+}
+</style>
+</head>
+<body bgcolor="skyblue">
+
+	<h2>게시판 글쓰기 페이지</h2>
+	<hr>
+	<a href="index.html">
+		<button style="background: lime">첫페이지로</button>
+	</a>
+	<a href="bbs.html">
+		<button style="background: lime">게시판정보 페이지로</button>
+	</a>
+	<form action="insert2.jsp">
+	<table border="1" align="center">
+		<tr>
+			<td class="left">제목</td>
+			<td><input name="title" value="good"></td>
+		</tr>
+		<tr>
+			<td class="left">내용</td>
+			<td><textarea rows="6" cols="22" name="content" style="background: lightgray">very good</textarea></td>
+		</tr>
+		<tr>
+			<td class="left">이름</td>
+			<td><input name="writer" value="apple"></td>
+		</tr>
+		<tr>
+			<td style="background: yellow" colspan="2"><a>
+					<button style="background: lime">게시판 글쓰기 데이터 전송</button>
+			</a></td>
+		</tr>
+	</table>
+	</form>
+
+</body>
+</html>
