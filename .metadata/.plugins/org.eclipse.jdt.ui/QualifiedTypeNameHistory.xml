@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="클론코딩.해보자"/>
-<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
-<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
 <fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.ExceptionList"/>
 <fullyQualifiedTypeName name="상속응용.글자길이판독기"/>
@@ -30,7 +27,6 @@
 <fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
 <fullyQualifiedTypeName name="javax.swing.JTextField"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="회원정보.MemberDAO"/>
 <fullyQualifiedTypeName name="회원정보.MemberVO"/>
 <fullyQualifiedTypeName name="javax.swing.JFrame"/>
@@ -41,9 +37,7 @@
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="상품정보.ProductDAO"/>
 <fullyQualifiedTypeName name="상품정보.ProductVO"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="상품정보.상품수정"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="매서드연습.계산기"/>
 <fullyQualifiedTypeName name="매서드연습.MemberVO"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -59,5 +53,11 @@
 <fullyQualifiedTypeName name="정리문제.Car"/>
 <fullyQualifiedTypeName name="정리문제.Tour"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="bean.MemberVO"/>
 <fullyQualifiedTypeName name="bean.BbsVO"/>
+<fullyQualifiedTypeName name="bean.ProductDAO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="bean.ProductVO"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

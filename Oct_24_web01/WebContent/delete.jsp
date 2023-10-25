@@ -22,6 +22,12 @@
 <body bgcolor="red">
 
 	<h4><%=ans%></h4>
+	<a href="index.html">
+		<button style="background: pink; color: red">첫페이지로</button>
+	</a>
+	<a href="member.html">
+		<button style="background: pink; color: red">회원정보 페이지로</button>
+	</a><br>
 	
 </body>
 </html>

@@ -22,38 +22,27 @@ input {
 input {
 	background: lightgray;
 }
-button {
-	font-size: 15px;
-}
 </style>
 </head>
-<body bgcolor="skyblue">
+<body bgcolor="lime">
 
-	<h2>게시글 수정 페이지</h2>
+	<h2>회원정보 검색 페이지(개인)</h2>
 	<hr>
 	<a href="index.html">
-		<button style="background: lime">첫페이지로</button>
+		<button style="background: pink; color: red">첫페이지로</button>
 	</a>
-	<a href="bbs.html">
-		<button style="background: lime">게시판정보 페이지로</button>
+	<a href="member.html">
+		<button style="background: pink; color: red">회원정보 페이지로</button>
 	</a>
-	<form action="update2.jsp">
+	<form action="one.jsp">
 		<table border="1" align="center">
 			<tr>
-				<td class="left">게시글 번호</td>
-				<td><input name="no"></td>
-			</tr>
-			<tr>
-				<td class="left">수정할 항목<br>(제목or내용)</td>
-				<td><input name="index"></td>
-			</tr>
-			<tr>
-				<td class="left">수정할 내용</td>
-				<td><input name="cont"></td>
+				<td class="left">아이디</td>
+				<td><input name="id"></td>
 			</tr>
 			<tr>
 				<td style="background: yellow" colspan="2">
-					<button style="background: lime">게시글 수정요청</button>
+					<button style="background: pink">회원정보 검색요청</button>
 					<!-- <input type="submit" value="회원가입요청">이랑 위 버튼이랑 똑같은 처리 -->
 					<!-- form 안에 들어있는 버튼은 전송용 버튼 --> <!-- 전송 태그 ==> type="submit" 을 생략할 수 있다 -->
 				</td>

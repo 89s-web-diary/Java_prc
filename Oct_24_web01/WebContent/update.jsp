@@ -26,6 +26,12 @@
 
 	<h4><%=result%></h4>
 	<hr color="lime">
+	<a href="index.html">
+		<button style="background: pink; color: red">첫페이지로</button>
+	</a>
+	<a href="member.html">
+		<button style="background: pink; color: red">회원정보 페이지로</button>
+	</a><br>
 	수정 요청한 아이디는  <%=id%><br>
 	수정 요청한 항목은 <%=index%><br>
 	수정 요청한 내용은 <%=cont %>

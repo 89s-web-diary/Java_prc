@@ -42,6 +42,12 @@
 
 	<h5>당신이 입력한 회원정보를 확인해주세요</h5>
 	<hr color="lime">
+	<a href="index.html">
+		<button style="background: pink; color: red">첫페이지로</button>
+	</a>
+	<a href="member.html">
+		<button style="background: pink; color: red">회원정보 페이지로</button>
+	</a><br>
 	가입한 아이디는  <%=id%><br>   <!-- id변수에 있는 것 보여줘(프린트) // 출력식  -->
 	가입한 패스워드는  <%=pw%><br>
 	가입한 이름은  <%=name%><br>

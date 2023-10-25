@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
-*{
+* {
 	text-align: center;
 }
 td {
@@ -14,7 +14,6 @@ input {
 	font-size: 20px
 }
 .left {
-	/* 클래스 중 left에 해당하는 것만 style 지정 */
 	background: cyan;
 	font-size: 20px;
 	width: 200px;
@@ -23,11 +22,14 @@ input {
 	background: black;
 	color: white;
 }
+button {
+	font-size: 15px;
+}
 </style>
 </head>
 <body bgcolor="violet">
 
-	<h2>상품등록 페이지</h2>
+	<h2>상품정보 삭제 페이지</h2>
 	<hr>
 	<a href="index.html">
 		<button style="background: lightblue">첫페이지로</button>
@@ -35,36 +37,15 @@ input {
 	<a href="product.html">
 		<button style="background: lightblue">상품정보 페이지로</button>
 	</a>
-	<form action="insert3.jsp">
+	<form action="delete3.jsp">
 		<table border="1" align="center">
 			<tr>
-				<td class="left">상품Id</td>
+				<td class="left">삭제할 상품ID</td>
 				<td><input name="id"></td>
 			</tr>
 			<tr>
-				<td class="left">상품명</td>
-				<td><input name="name"></td>
-			</tr>
-			<tr>
-				<td class="left">상품설명</td>
-				<td><input name="cont"></td>
-			</tr>
-			<tr>
-				<td class="left">가격</td>
-				<td><input name="price"></td>
-			</tr>
-			<tr>
-				<td class="left">제조사</td>
-				<td><input name="comp"></td>
-			</tr>
-			<tr>
-				<td class="left">이미지</td>
-				<td><input name="img"></td>
-			</tr>
-			
-			<tr> 
 				<td style="background: cyan" colspan="2">
-					<button style="background: lightblue">상품등록요청</button>
+					<button style="background: lightblue">게시글 삭제 요청</button>
 					<!-- <input type="submit" value="회원가입요청">이랑 위 버튼이랑 똑같은 처리 -->
 					<!-- form 안에 들어있는 버튼은 전송용 버튼 --> <!-- 전송 태그 ==> type="submit" 을 생략할 수 있다 -->
 				</td>

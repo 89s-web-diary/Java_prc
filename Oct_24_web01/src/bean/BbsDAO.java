@@ -3,6 +3,7 @@ package bean;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
 
 public class BbsDAO {
 	Connection con;
@@ -95,18 +96,22 @@ public class BbsDAO {
 		return res;
 	}// update
 
-	public void select(int no) {
+	public BbsVO one(int no) {
+		BbsVO bag = new BbsVO();
 		// Java - DB 연결 (JDBC) 4단계에 거쳐 코딩
 		try {
 			String sql = "select * from bbs where no = ?"; // 물음표에 대입가능
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setInt(1, no); // 첫번째 물음표에 매개변수 id 대입
-			System.out.println(" Clear 3 ");
 
-			// 4. 3번에서 생성된 sql문을 MySQL로 전송
 			ResultSet table = ps.executeQuery();
-			System.out.println(table.next());
-			System.out.println(" Clear 4 ");
+			if(table.next()) {
+				bag.setNo(table.getInt("no"));
+				bag.setTitle(table.getString("title"));
+				bag.setContent(table.getString("content"));
+				bag.setWriter(table.getString("writer"));
+			}
+			System.out.println("SQL Connect Complete");
 			
 			dbcp.freeConnection(con, ps, table);
 
@@ -115,6 +120,35 @@ public class BbsDAO {
 			e.printStackTrace();
 			System.out.println("Error");
 		}
+		return bag;
+	} // select
+	
+	public ArrayList<BbsVO> list() {
+		ArrayList<BbsVO> list = new ArrayList<BbsVO>();
+		// Java - DB 연결 (JDBC) 4단계에 거쳐 코딩
+		try {
+			String sql = "select * from bbs"; // 물음표에 대입가능
+			PreparedStatement ps = con.prepareStatement(sql);
+
+			ResultSet table = ps.executeQuery();
+			while(table.next()) {
+				BbsVO bag = new BbsVO();
+				bag.setNo(table.getInt("no"));
+				bag.setTitle(table.getString("title"));
+				bag.setContent(table.getString("content"));
+				bag.setWriter(table.getString("writer"));
+				list.add(bag);
+			}
+			System.out.println("SQL Connect Complete");
+			
+			dbcp.freeConnection(con, ps, table);
+
+		} catch (Exception e) { // Exception == Error
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println("Error");
+		}
+		return list;
 	} // select
 	
 }
