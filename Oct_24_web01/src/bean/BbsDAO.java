@@ -4,9 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import javax.swing.JOptionPane;
-
-
 public class BbsDAO {
 	Connection con;
 	DBConnectionMgr dbcp;
@@ -35,58 +32,67 @@ public class BbsDAO {
 
 			// 4. 3번에서 생성된 sql문을 MySQL로 전송
 			result = ps.executeUpdate();
-			JOptionPane.showMessageDialog(null, "작성 완료");
-
+			System.out.println("작성 완료");
+			
+			dbcp.freeConnection(con, ps);
+			
 		} catch (Exception e) { // Exception == Error
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			JOptionPane.showMessageDialog(null, "존재하지 않은 ID입니다");
+			System.out.println("존재하지 않은 ID입니다");
 		}
 		return result;
 	} // insert
 
-	public void delete(int no) {
+	public int delete(int no) {
 		// Java - DB 연결 (JDBC) 4단계에 거쳐 코딩
+		int res = 0;
 		try {
 			
 			String sql = "delete from bbs where no = ?"; // 물음표에 대입가능
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setInt(1, no); // 첫번째 물음표에 매개변수 id 대입
-			System.out.println(" Clear 3 ");
 
-			// 4. 3번에서 생성된 sql문을 MySQL로 전송
-			ps.execute();
-			System.out.println(" Clear 4 ");
-			JOptionPane.showMessageDialog(null, "삭제 완료");
-
+			res = ps.executeUpdate();
+			System.out.println("삭제 완료");;
+			dbcp.freeConnection(con, ps);
 		} catch (Exception e) { // Exception == Error
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			System.out.println("Error");
 		} 
+		return res;
 	}	// delete
 
-	public void update(int no, String title, String cont) {
+	public int update(int no, String index, String cont) {
 		// Java - DB 연결 (JDBC) 4단계에 거쳐 코딩
+		int res = 0;
 		try {
-			
-			String sql = "update bbs set title = ?, content = ? where no = ?"; // 물음표에 대입가능
-			PreparedStatement ps = con.prepareStatement(sql);
-			ps.setString(1, title); // 첫번째 물음표에 매개변수 id 대입
-			ps.setString(2, cont); // 첫번째 물음표에 매개변수 id 대입
-			ps.setInt(3, no);
-			System.out.println(" Clear 3 ");
-
-			// 4. 3번에서 생성된 sql문을 MySQL로 전송
-			ps.execute();
-			System.out.println(" Clear 4 ");
-			JOptionPane.showMessageDialog(null, "수정 완료");
+			if(index.equals("제목")) {
+				String sql = "update bbs set title = ? where no = ?";
+				PreparedStatement ps = con.prepareStatement(sql);
+				ps.setString(1, cont);
+				ps.setInt(2, no);
+				System.out.println("Title Update Complete");
+				res = ps.executeUpdate();
+				dbcp.freeConnection(con, ps);
+			}
+			else if(index.equals("내용")) {
+				String sql = "update bbs set content = ? where no = ?"; // 물음표에 대입가능
+				PreparedStatement ps = con.prepareStatement(sql);
+				ps.setString(1, cont); // 첫번째 물음표에 매개변수 id 대입
+				ps.setInt(2, no);
+				System.out.println("Content Update Complete");
+				res = ps.executeUpdate();
+				dbcp.freeConnection(con, ps);
+			}
 
 		} catch (Exception e) { // Exception == Error
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			System.out.println("Error");
 		} 
+		return res;
 	}// update
 
 	public void select(int no) {
@@ -101,6 +107,8 @@ public class BbsDAO {
 			ResultSet table = ps.executeQuery();
 			System.out.println(table.next());
 			System.out.println(" Clear 4 ");
+			
+			dbcp.freeConnection(con, ps, table);
 
 		} catch (Exception e) { // Exception == Error
 			// TODO Auto-generated catch block

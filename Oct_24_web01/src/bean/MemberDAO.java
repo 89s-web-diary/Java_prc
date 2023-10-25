@@ -1,23 +1,22 @@
 package bean;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 
 public class MemberDAO {
-	
+
 	Connection con;
 	DBConnectionMgr dbcp;
+
 	// new를 이용해서 객체생성시 클래스이름과 동일한 메서드가 있으면 자동실행
 	public MemberDAO() {
 		try {
-			
+
 			dbcp = DBConnectionMgr.getInstance();
-			con = dbcp.getConnection();	//임대
-			
-			// 위 두줄  == 아래 6줄
+			con = dbcp.getConnection(); // 임대
+
+			// 위 두줄 == 아래 6줄
 //			Class.forName("com.mysql.cj.jdbc.Driver");
 //			String url = "jdbc:mysql://localhost:3306/prc_shop?useUnicode=true&serverTimezone=Asia/Seoul";
 //			String user = "root";
@@ -53,7 +52,8 @@ public class MemberDAO {
 		return res;
 	} // insert
 
-	public void delete(String id) {
+	public int delete(String id) {
+		int res = 0;
 		// Java - DB 연결 (JDBC) 4단계에 거쳐 코딩
 		try {
 			String sql = "delete from member where id = ?"; // 물음표에 대입가능
@@ -62,7 +62,7 @@ public class MemberDAO {
 			System.out.println(" Clear 3 ");
 
 			// 4. 3번에서 생성된 sql문을 MySQL로 전송
-			ps.executeUpdate();
+			res = ps.executeUpdate();
 			System.out.println(" Clear 4 ");
 			dbcp.freeConnection(con, ps);
 		} catch (Exception e) { // Exception == Error
@@ -70,10 +70,12 @@ public class MemberDAO {
 			e.printStackTrace();
 			System.out.println("Error");
 		} // delete
+		return res;
 	}
 
-	public void update(String id, String index, String cont) {
+	public int update(String id, String index, String cont) {
 		// Java - DB 연결 (JDBC) 4단계에 거쳐 코딩
+		int res = 0;
 		try {
 			if (index.equals("tel")) {
 				String sql = "update member set tel = ? where id = ?"; // 물음표에 대입가능
@@ -81,7 +83,7 @@ public class MemberDAO {
 				ps.setString(1, cont); // 첫번째 물음표에 매개변수 id 대입
 				ps.setString(2, id); // 첫번째 물음표에 매개변수 id 대입
 				System.out.println("Update Complete");
-				ps.execute();
+				res = ps.executeUpdate();
 				dbcp.freeConnection(con, ps);
 			} else if (index.equals("pw")) {
 				String sql = "update member set pw = ? where id = ?"; // 물음표에 대입가능
@@ -89,7 +91,7 @@ public class MemberDAO {
 				ps.setString(1, cont); // 첫번째 물음표에 매개변수 id 대입
 				ps.setString(2, id); // 첫번째 물음표에 매개변수 id 대입
 				System.out.println("Update Complete");
-				ps.execute();
+				res = ps.executeUpdate();
 				dbcp.freeConnection(con, ps);
 			} else if (index.equals("name")) {
 				String sql = "update member set name = ? where id = ?"; // 물음표에 대입가능
@@ -97,19 +99,19 @@ public class MemberDAO {
 				ps.setString(1, cont); // 첫번째 물음표에 매개변수 id 대입
 				ps.setString(2, id); // 첫번째 물음표에 매개변수 id 대입
 				System.out.println("Update Complete");
-				ps.execute();
+				res = ps.executeUpdate();
 				dbcp.freeConnection(con, ps);
 			}
 
 			// 4. 3번에서 생성된 sql문을 MySQL로 전송
 			System.out.println("Success Link mySQL");
-			
-			
+
 		} catch (Exception e) { // Exception == Error
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			System.out.println("Error");
-		} // delete
+		} // update
+		return res;
 	}
 
 	public MemberVO select(String id) {
@@ -141,14 +143,14 @@ public class MemberDAO {
 		}
 		return bag;
 	} // select
-	
+
 	public boolean res(String id) {
 		boolean result = false;
 		try {
 			String sql = "select * from member where id = ?";
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, id);
-			
+
 			ResultSet table = ps.executeQuery();
 			result = table.next();
 			System.out.println(result);
@@ -158,5 +160,5 @@ public class MemberDAO {
 		}
 		return result;
 	}
-	
+
 }

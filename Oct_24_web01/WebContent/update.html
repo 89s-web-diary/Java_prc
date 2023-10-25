@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+*{
+	text-align: center;
+}
+td {
+	text-align: center;
+}
+input {
+	font-size: 20px
+}
+.left {
+	/* 클래스 중 left에 해당하는 것만 style 지정 */
+	background: yellow;
+	font-size: 20px;
+	width: 200px;
+}
+input {
+	background: lightgray;
+}
+</style>
+</head>
+<body bgcolor="lime">
+
+	<h2>회원정보 수정 페이지</h2>
+	<hr>
+	<a href="index.html">
+		<button style="background: pink; color: red">첫페이지로</button>
+	</a>
+	<a href="member.html">
+		<button style="background: pink; color: red">회원정보 페이지로</button>
+	</a>
+	<form action="update.jsp">
+		<table border="1" align="center">
+			<tr>
+				<td class="left">아이디</td>
+				<td><input name="id"></td>
+			</tr>
+			<tr>
+				<td class="left">수정할 항목(pw,name,tel)</td>
+				<td><input name="index"></td>
+			</tr>
+			<tr>
+				<td class="left">수정할 내용</td>
+				<td><input name="cont"></td>
+			</tr>
+			<tr>
+				<td style="background: yellow" colspan="2">
+					<button style="background: pink">회원정보 수정요청</button>
+					<!-- <input type="submit" value="회원가입요청">이랑 위 버튼이랑 똑같은 처리 -->
+					<!-- form 안에 들어있는 버튼은 전송용 버튼 --> <!-- 전송 태그 ==> type="submit" 을 생략할 수 있다 -->
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
