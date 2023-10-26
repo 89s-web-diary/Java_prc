@@ -4,11 +4,8 @@
 	pageEncoding="UTF-8"%>
 <%
 	String id = request.getParameter("id");
-
 	MemberDAO dao = new MemberDAO(); // 객체생성 시 자동완성기능 이용
-	MemberVO bag = new MemberVO();
-	
-	bag = dao.one(id);
+	MemberVO bag = dao.one(id);
 %>
 <!DOCTYPE html>
 <html>

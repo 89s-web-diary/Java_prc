@@ -4,11 +4,8 @@
 	pageEncoding="UTF-8"%>
 <%
 	String no = request.getParameter("no");
-
 	BbsDAO dao = new BbsDAO();
-	BbsVO bag = new BbsVO();
-
-	bag = dao.one(Integer.parseInt(no));
+	BbsVO bag = dao.one(Integer.parseInt(no));
 %>
 <!DOCTYPE html>
 <html>

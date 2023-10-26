@@ -1,12 +1,11 @@
-<%@page import="java.util.ArrayList"%>
 <%@page import="bean.MemberVO"%>
+<%@page import="java.util.ArrayList"%>
 <%@page import="bean.MemberDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%
-	ArrayList<MemberVO> list = new ArrayList<>();
 	MemberDAO dao = new MemberDAO();
-	list = dao.list();
+	ArrayList<MemberVO> list = dao.list();
 %>
 
 <!DOCTYPE html>
@@ -23,7 +22,7 @@
 	/* 클래스 중 left에 해당하는 것만 style 지정 */
 	background: yellow;
 	font-size: 20px;
-	width: 200px;
+	width: 100px;
 }
 
 .data {
@@ -57,6 +56,9 @@
 			<td class="data"><%=bag.getPw()%></td>
 			<td class="data"><%=bag.getName()%></td>
 			<td class="data"><%=bag.getTel()%></td>
+			<td class="data"><a href="one.jsp?id=<%=bag.getId()%>">
+					<button>상세정보보기</button>
+			</a>
 		</tr>
 		<%
 			}

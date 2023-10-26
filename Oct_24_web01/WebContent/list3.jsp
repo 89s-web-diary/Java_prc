@@ -52,9 +52,7 @@ img {
 		<tr>
 			<td class="top">상품번호</td>
 			<td class="top">이름</td>
-			<td class="top" id="contt">상품내용</td>
 			<td class="top">가격</td>
-			<td class="top">제조회사</td>
 			<td class="top">이미지</td>
 		</tr>
 		<%
@@ -62,10 +60,8 @@ img {
 		%>
 		<tr>
 			<td class="data"><%=bag.getId()%></td>
-			<td class="data"><%=bag.getName()%></td>
-			<td class="data"><%=bag.getCont()%></td>
+			<td class="data"><a href="one3.jsp?id=<%=bag.getId()%>"><%=bag.getName()%></a></td>
 			<td class="data"><%=bag.getPrice()%></td>
-			<td class="data"><%=bag.getComp()%></td>
 			<td class="data"><img src="img/<%=bag.getImg()%>"></td>
 		</tr>
 		<%

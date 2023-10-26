@@ -4,11 +4,8 @@
 	pageEncoding="UTF-8"%>
 <%
 	String id = request.getParameter("id");
-
 	ProductDAO dao = new ProductDAO();
-	ProductVO bag = new ProductVO();
-
-	bag = dao.one(id);
+	ProductVO bag = dao.one(id);
 %>
 <!DOCTYPE html>
 <html>
