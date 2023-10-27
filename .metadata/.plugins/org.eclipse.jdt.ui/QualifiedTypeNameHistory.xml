@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.ExceptionList"/>
 <fullyQualifiedTypeName name="상속응용.글자길이판독기"/>
 <fullyQualifiedTypeName name="배열스윙.경주"/>
 <fullyQualifiedTypeName name="javax.swing.text.FlowView.FlowStrategy"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="bean.ProductVO"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
 </qualifiedTypeNameHistroy>

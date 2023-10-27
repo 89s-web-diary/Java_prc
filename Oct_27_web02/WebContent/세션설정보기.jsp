@@ -11,6 +11,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-저장된 세션값은 <%=view%>
+저장된 세션값은 <%=view%><br>
+<a href="조회수증가.jsp">조회수 증가</a><br>
+<a href="세션설정하기.jsp">조회수 초기화</a>
 </body>
 </html>
