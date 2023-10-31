@@ -2,7 +2,6 @@
 <%@page import="bin.BbsDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-
 <jsp:useBean id="bag" class="bin.BbsDTO"></jsp:useBean>
 <jsp:setProperty property="id" name="bag" />
 <%
@@ -34,32 +33,29 @@
 			<jsp:include page="top2.jsp"></jsp:include>
 		</div>
 		<div id="center">
-			<br>
-			<table border=1 class = "table table-hover">
-			<thead>
-				<tr class = "table table-success">
-					<td colspan="2"><%=bag2.getWriter()%>님이 작성함
-				</tr>
-			</thead>
-				<tr>
-					<td width="200">제목</td>
-					<td width="300"><%=bag2.getTitle()%>
-				</tr>
-				<tr>
-					<td width="200">내용</td>
-					<td width="300"><%=bag2.getContent()%></td>
-				</tr>
-				<tr>
-					<td width="200">작성자</td>
-					<td width="300"><%=bag2.getWriter()%></td>
-				</tr>
-			</table>
-			<a href="bbs.jsp"><button class="btn btn-info">리스트로</button></a>
-			<% if(session.getAttribute("id")!=null) {
-				if(session.getAttribute("id").equals(bag2.getWriter())) { %>
-			<a href="update.jsp?id=<%=bag2.getId()%>"><button class="btn btn-warning">수정하기</button></a>
-			<a href="delete.jsp?id=<%=bag2.getId()%>"><button class="btn btn-danger">삭제하기</button></a>
-			<% }} %>
+			<form action="update2.jsp">
+			<input name="id" value="<%=bag2.getId() %>" type="hidden">
+				<table border=1 class="table table-hover">
+					<tr class="table-warning">
+						<td width="200">제목</td>
+						<td width="300"><input name="title" value="<%=bag2.getTitle() %>"></td>
+					</tr>
+					<tr class="table-warning">
+						<td width="200">내용</td>
+						<td width="300"><input name="content" value="<%=bag2.getContent()%>"></td>
+					</tr>
+					<tr class="table-warning">
+						<td width="200">작성자</td>
+						<td width="300"><input name="writer" value="${id}" readonly="readonly"></td>
+					</tr>
+					
+					<tr class="table-warning">
+						<td width="200" colspan="2">
+							<button class="btn btn-info" type="submit">수정하기</button>
+						</td>
+					</tr>
+				</table>
+			</form>
 		</div>
 	</div>
 </body>

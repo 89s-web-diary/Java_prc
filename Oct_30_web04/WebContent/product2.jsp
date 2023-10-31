@@ -15,7 +15,7 @@
 <title>Insert title here</title>
 <link href="css/project.css" rel="stylesheet">
 <style>
-span{
+span {
 	font-size: 18px;
 }
 </style>
@@ -40,24 +40,26 @@ span{
 		<div id="center">
 			<button class="btn btn-success">상품상세정보</button>
 			<br>
-			<table border=1 class = "table table-bordered">
-				<tr>
-					<td rowspan="5"><img alt="none" src="img/<%=bag2.getImg()%>"></td>
-					<td><span class="alert alert-danger">상품아이디 : <%=bag2.getId()%></span>
-				</tr>
-				<tr>
-					<td><span class="alert alert-danger">상품명 : <%=bag2.getTitle()%></span>
-				</tr>
-				<tr>
-					<td><span class="alert alert-success">상품설명 : <%=bag2.getContent()%></span>
-				</tr>
-				<tr>
-					<td><span class="alert alert-success">상품가격 : <%=bag2.getPrice()%></span>
-				</tr>
-				<tr>
-					<td><span class="alert alert-success">상품회사 : <%=bag2.getCompany()%></span>
-				</tr>
+			<table border=1 class="table table-primary">
+					<tr>
+						<td rowspan="5"><img alt="none" src="img/<%=bag2.getImg()%>"></td>
+						<td><span class="badge bg-danger">상품아이디 : <%=bag2.getId()%></span></td>
+					</tr>
+					<tr>
+						<td><span class="badge bg-danger">상품명 : <%=bag2.getTitle()%></span></td>
+					</tr>
+					<tr>
+						<td><span class="badge bg-success">상품설명 : <%=bag2.getContent()%></span></td>
+					</tr>
+					<tr>
+						<td><span class="badge bg-success">상품가격 : <%=bag2.getPrice()%></span></td>
+					</tr>
+					<tr>
+						<td><span class="badge bg-success">상품회사 : <%=bag2.getCompany()%></span></td>
+					</tr>
 			</table>
+				<button class="btn btn-primary">장바구니</button>
+				<button class="btn btn-primary">주문하기</button>
 		</div>
 	</div>
 </body>
