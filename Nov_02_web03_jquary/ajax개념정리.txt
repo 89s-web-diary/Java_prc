@@ -1,0 +1,31 @@
+1. ajax는 무엇의 약자인가요?
+Asynchronous Javascript And XML
+비동기통신(순서상관없는 통신)
+
+2. ajax의 a는 무슨 의미인가요? x는 무엇인가요?
+Asynchronous 순서가 상관없는
+XML 받아들이는 데이터타입
+
+3. ajax에서 XML대신 사용할 수 있는 것은?
+JSON
+
+4. JSON은 무엇의 약자인가요?
+Java Script Object Notation
+웹과 컴퓨터 프로그램에서 용량이 적은 데이터를 교환하기 위해
+데이터 객체를 {속성,값}의 쌍 형태로 표현하는 방식
+
+5. ajax에서 반드시 필요한 키 2가지는?
+{key:value, key:value}, url, success
+
+6. $.ajax() 괄호안에 들어가는 데이터 타입은?
+JSON, {}
+
+7. jquery와 javascript와의 관계
+Javascript에서 자주 사용하고 중요한 코드들을 쉽게 쓸 수 있도록
+라이브러리로 만들어놓은 것이 jquery $('#id') => document.getElementById("id");
+
+8. OX
+8-1) ajax는 http통신이다
+O(header+body)
+8-2) ajax에서 data키는 데이터를 받을 때 사용한다.
+X(브라우저에서 서버로 데이터를 보낼 때 사용)
