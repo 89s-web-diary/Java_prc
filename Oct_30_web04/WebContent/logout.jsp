@@ -4,6 +4,7 @@
 	pageEncoding="UTF-8"%>
 <%
 	session.setAttribute("id", null);
+	session.setAttribute("basket", null);
 	response.sendRedirect("member.jsp");
 	// 서버가 클라이언트(브라우저)에게 member.jsp를 요청하라고 명령
 %>

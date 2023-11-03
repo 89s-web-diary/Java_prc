@@ -26,7 +26,7 @@
     if(bag.getId() != null){
 	    if(session.getAttribute("basket") == null){
 	    	//장바구니에 넣은적이 없다.(0개)
-	    	list = new ArrayList<ProductDTO>();
+	    	list = new ArrayList<>();
 	    }else{ //2번째 이후부터 실행
 	    	//장바구니에 넣은적이 있다.(1개 ==> 2개)
 	    	list = (ArrayList<ProductDTO>)session.getAttribute("basket");//{dto}
