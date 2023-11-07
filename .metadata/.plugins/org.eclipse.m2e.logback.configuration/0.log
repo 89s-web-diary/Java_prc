@@ -178,3 +178,147 @@
 2023-11-06 10:45:14,425 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-11-06 10:45:14,427 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-11-06 10:45:14,428 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 10:04:21,369 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-07 17:04:07,197 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-11-07 17:04:16,462 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.multi:www0:1.0.0-BUILD-SNAPSHOT @ C:\Users\kangy\eclipse-workspace\dd\pom.xml.
+2023-11-07 17:04:25,270 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:04:25,277 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:04:25,285 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:04:25,286 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:11:30,811 [Worker-8: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.multicampus:www3:1.0.0-BUILD-SNAPSHOT @ C:\Users\kangy\eclipse-workspace\test3\pom.xml.
+2023-11-07 17:11:31,047 [Worker-8: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:11:31,049 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:11:31,062 [Worker-8: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:11:31,063 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:11:31,903 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:11:31,913 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:11:31,918 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:11:31,919 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:12:53,871 [Worker-17: Building Project test3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:12:53,872 [Worker-17: Building Project test3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:12:53,875 [Worker-17: Building Project test3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:12:53,878 [Worker-17: Building Project test3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:20:20,747 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:20:20,748 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:20:20,750 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:20:20,751 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:20:52,958 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:20:52,959 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:20:52,960 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:20:52,961 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:21:57,940 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:21:57,941 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:21:57,943 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:21:57,944 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:24:34,951 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.multicampus:www3:1.0.0-BUILD-SNAPSHOT @ C:\Users\kangy\eclipse-workspace\test3\pom.xml.
+2023-11-07 17:24:35,185 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.1.RELEASE/spring-context-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,224 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.1.RELEASE/spring-context-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,243 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,275 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,295 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.1.RELEASE/spring-beans-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,327 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.1.RELEASE/spring-beans-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,344 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.1.RELEASE/spring-core-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,382 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.1.RELEASE/spring-core-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,401 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Bismuth-SR3/reactor-bom-Bismuth-SR3.pom
+2023-11-07 17:24:35,431 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Bismuth-SR3/reactor-bom-Bismuth-SR3.pom
+2023-11-07 17:24:35,450 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.16.Final/netty-bom-4.1.16.Final.pom
+2023-11-07 17:24:35,480 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.16.Final/netty-bom-4.1.16.Final.pom
+2023-11-07 17:24:35,499 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2023-11-07 17:24:35,533 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2023-11-07 17:24:35,550 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.1.RELEASE/spring-jcl-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,587 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.1.RELEASE/spring-jcl-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,606 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.1.RELEASE/spring-expression-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,645 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.1.RELEASE/spring-expression-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,671 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.0.1.RELEASE/spring-webmvc-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,704 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.0.1.RELEASE/spring-webmvc-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,724 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.1.RELEASE/spring-web-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,765 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.1.RELEASE/spring-web-5.0.1.RELEASE.pom
+2023-11-07 17:24:35,826 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.1.RELEASE/spring-context-5.0.1.RELEASE.jar
+2023-11-07 17:24:35,870 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.1.RELEASE/spring-core-5.0.1.RELEASE.jar
+2023-11-07 17:24:35,876 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.1.RELEASE/spring-jcl-5.0.1.RELEASE.jar
+2023-11-07 17:24:35,876 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE.jar
+2023-11-07 17:24:35,878 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.1.RELEASE/spring-beans-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,080 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.1.RELEASE/spring-jcl-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,104 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.1.RELEASE/spring-expression-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,113 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,133 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.0.1.RELEASE/spring-webmvc-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,163 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.1.RELEASE/spring-context-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,196 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.1.RELEASE/spring-web-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,213 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.1.RELEASE/spring-beans-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,235 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.1.RELEASE/spring-expression-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,256 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.1.RELEASE/spring-core-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,380 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.0.1.RELEASE/spring-webmvc-5.0.1.RELEASE.jar
+2023-11-07 17:24:36,442 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.1.RELEASE/spring-web-5.0.1.RELEASE.jar
+2023-11-07 17:24:37,119 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:24:37,121 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:24:37,125 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:24:37,126 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:24:37,126 [Worker-24: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of test3
+2023-11-07 17:24:37,127 [Worker-24: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for test3
+2023-11-07 17:24:37,134 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:24:38,199 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.1.RELEASE/spring-context-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:38,422 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.0.1.RELEASE/spring-context-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:38,477 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.0.1.RELEASE
+2023-11-07 17:24:38,552 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:38,672 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:38,724 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.0.1.RELEASE
+2023-11-07 17:24:38,795 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.1.RELEASE/spring-beans-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:38,805 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:24:38,808 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:24:38,811 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:24:38,814 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:24:38,939 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.0.1.RELEASE/spring-beans-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:39,001 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.0.1.RELEASE
+2023-11-07 17:24:39,051 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.1.RELEASE/spring-core-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:39,197 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.0.1.RELEASE/spring-core-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:39,248 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.0.1.RELEASE
+2023-11-07 17:24:39,316 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.1.RELEASE/spring-jcl-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:39,407 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.0.1.RELEASE/spring-jcl-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:39,537 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.0.1.RELEASE
+2023-11-07 17:24:39,602 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.1.RELEASE/spring-expression-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:39,672 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.0.1.RELEASE/spring-expression-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:39,716 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.0.1.RELEASE
+2023-11-07 17:24:39,769 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.0.1.RELEASE/spring-webmvc-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:39,969 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.0.1.RELEASE/spring-webmvc-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:40,021 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.0.1.RELEASE
+2023-11-07 17:24:40,074 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.1.RELEASE/spring-web-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:40,269 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.1.RELEASE/spring-web-5.0.1.RELEASE-sources.jar
+2023-11-07 17:24:40,318 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.0.1.RELEASE
+2023-11-07 17:24:40,870 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:24:40,872 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:24:40,872 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:24:40,874 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:27:25,215 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.multicampus:www3:1.0.0-BUILD-SNAPSHOT @ C:\Users\kangy\eclipse-workspace\test3\pom.xml.
+2023-11-07 17:27:25,314 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.pom
+2023-11-07 17:27:25,354 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.pom
+2023-11-07 17:27:25,372 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.pom
+2023-11-07 17:27:25,403 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.pom
+2023-11-07 17:27:25,421 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.19.4/protobuf-parent-3.19.4.pom
+2023-11-07 17:27:25,458 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.19.4/protobuf-parent-3.19.4.pom
+2023-11-07 17:27:25,476 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.19.4/protobuf-bom-3.19.4.pom
+2023-11-07 17:27:25,514 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.19.4/protobuf-bom-3.19.4.pom
+2023-11-07 17:27:25,559 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar
+2023-11-07 17:27:25,620 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar
+2023-11-07 17:27:26,285 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar
+2023-11-07 17:27:26,460 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar
+2023-11-07 17:27:26,740 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:27:26,742 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:27:26,743 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:27:26,744 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:27:26,744 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of test3
+2023-11-07 17:27:26,744 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for test3
+2023-11-07 17:27:26,749 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:27:27,916 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31-sources.jar
+2023-11-07 17:27:28,293 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:27:28,294 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:27:28,297 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:27:28,299 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-07 17:27:28,403 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31-sources.jar
+2023-11-07 17:27:28,454 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.mysql:mysql-connector-j:8.0.31
+2023-11-07 17:27:28,519 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4-sources.jar
+2023-11-07 17:27:28,675 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4-sources.jar
+2023-11-07 17:27:28,726 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.protobuf:protobuf-java:3.19.4
+2023-11-07 17:27:29,358 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:27:29,360 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-07 17:27:29,360 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-07 17:27:29,361 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
