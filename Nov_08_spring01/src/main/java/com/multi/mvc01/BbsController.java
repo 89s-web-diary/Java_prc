@@ -1,8 +1,11 @@
 package com.multi.mvc01;
 
+import java.util.ArrayList;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class BbsController {
@@ -42,6 +45,20 @@ public class BbsController {
 			System.out.println("삭제 실패");
 			return "redirect:bbs.jsp";
 		}
+	}
+	
+	@RequestMapping("one")
+	public void one(BbsDTO bag, Model model) throws Exception {
+		BbsDAO dao = new BbsDAO();
+		BbsDTO bag2 = dao.one(bag);
+		model.addAttribute("bag", bag2);
+	}
+	
+	@RequestMapping("list")
+	public void list(Model model) throws Exception {
+		BbsDAO dao = new BbsDAO();
+		ArrayList<BbsDTO> list = dao.list();
+		model.addAttribute("list", list);
 	}
 	
 }

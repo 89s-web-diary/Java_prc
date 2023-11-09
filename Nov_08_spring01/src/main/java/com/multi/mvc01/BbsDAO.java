@@ -126,7 +126,7 @@ public class BbsDAO {
 		// 3.SQL문 결정/생성
 		String sql = "select * from bbs where id = ?";
 		PreparedStatement ps = con.prepareStatement(sql);
-		System.out.println("3.ok----------");
+		System.out.println("3. ok----------");
 		ps.setInt(1, dto.getId());
 
 		// 4. sql문 mysql서버로 전송
@@ -142,6 +142,7 @@ public class BbsDAO {
 			dto2.setContent(rs.getString(3));
 			dto2.setWriter(rs.getString(4));
 		}
+		System.out.println("4. 성공");
 		return dto2;
 	}
 }
