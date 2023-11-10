@@ -18,7 +18,6 @@
 			<tr>
 				<td width="200">ID</td>
 				<td width="200">제목</td>
-				<td width="200">내용</td>
 				<td width="200">작성자</td>
 			</tr>
 		</thead>
@@ -26,8 +25,7 @@
 			<% for (BbsDTO bag : list) { %>
 			<tr>
 				<td><%=bag.getId()%></td>
-				<td><%=bag.getTitle()%></td>
-				<td><%=bag.getContent()%></td>
+				<td><a href="one?id=<%=bag.getId() %>"><%=bag.getTitle()%></a></td>
 				<td><%=bag.getWriter()%></td>
 			</tr>
 			<% } %>

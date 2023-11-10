@@ -2,17 +2,19 @@ package com.multi.mvc01;
 
 import java.util.ArrayList;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class BbsController {
 	
+	@Autowired
+	BbsDAO dao;
+	
 	@RequestMapping("insert2")
 	public void insert2(BbsDTO bag, Model model) {
-		BbsDAO dao = new BbsDAO();
 		int result = dao.insert(bag);
 		if(result==1) System.out.println("작성완료");
 		else System.out.println("작성실패");
@@ -22,7 +24,6 @@ public class BbsController {
 	
 	@RequestMapping("update2")
 	public String update2(BbsDTO bag) {
-		BbsDAO dao = new BbsDAO();
 		int res = dao.update(bag);
 		if(res==1) {
 			System.out.println("게시판 수정완료");
@@ -36,7 +37,6 @@ public class BbsController {
 	
 	@RequestMapping("delete2")
 	public String delete(BbsDTO bag) {
-		BbsDAO dao = new BbsDAO();
 		int res = dao.delete(bag);
 		if(res==1) {
 			System.out.println("삭제 성공");
@@ -49,14 +49,12 @@ public class BbsController {
 	
 	@RequestMapping("one")
 	public void one(BbsDTO bag, Model model) throws Exception {
-		BbsDAO dao = new BbsDAO();
 		BbsDTO bag2 = dao.one(bag);
 		model.addAttribute("bag", bag2);
 	}
 	
 	@RequestMapping("list")
 	public void list(Model model) throws Exception {
-		BbsDAO dao = new BbsDAO();
 		ArrayList<BbsDTO> list = dao.list();
 		model.addAttribute("list", list);
 	}
