@@ -1,6 +1,6 @@
+<%@page import="java.util.List"%>
 <%@page import="com.multi.mvc01.BbsDTO"%>
 <%@page import="com.multi.mvc01.BbsDAO"%>
-<%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -36,7 +36,7 @@
 			<% } %>
 			<%
 				BbsDAO dao = new BbsDAO();
-				ArrayList<BbsDTO> list = dao.list();
+				List<BbsDTO> list = dao.list();
 			%>
 			<table border="1" class="table table-hover">
 				<thead>
