@@ -36,7 +36,7 @@
 		<% for(BbsDTO bag : list){ %>
 		<tr>
 			<td><%=bag.getId() %></td>
-			<td><a href="one?title=<%=bag.getTitle()%>"><%=bag.getTitle() %></a></td>
+			<td><a href="one?id=<%=bag.getId()%>"><%=bag.getTitle() %></a></td>
 			<td><%=bag.getWriter() %></td>
 		</tr>
 		<% } %>

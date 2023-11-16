@@ -13,6 +13,9 @@ public class BbsController {
 	@Autowired
 	BbsDAO dao;
 	
+	@Autowired
+	ReplyDAO dao2;
+	
 	@RequestMapping("insertbbs")
 	public String insert(BbsDTO dto,Model model) {
 		int res = dao.insert(dto);
@@ -29,7 +32,9 @@ public class BbsController {
 	@RequestMapping("one")
 	public void one(BbsDTO dto, Model model) {
 		BbsDTO bag = dao.one(dto);
+		List<ReplyDTO> list = dao2.list(dto.getId());
 		model.addAttribute("bag", bag);
+		model.addAttribute("list", list);
 	}
 	
 }

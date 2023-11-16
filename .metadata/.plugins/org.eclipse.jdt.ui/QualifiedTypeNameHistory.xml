@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="매서드연습.MemberVO"/>
-<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-<fullyQualifiedTypeName name="예외처리.에러발생2"/>
 <fullyQualifiedTypeName name="리펙토링.MemberDAO"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="리펙토링.직원"/>
@@ -33,7 +29,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="com.multi.mvc01.ProductDAO"/>
 <fullyQualifiedTypeName name="com.multi.mvc01.BbsDAO"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.multi.mvc01.BbsDTO"/>
 <fullyQualifiedTypeName name="com.multi.mvc01.ProductDTO"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
@@ -48,16 +43,21 @@
 <fullyQualifiedTypeName name="com.multi.mvc05.MovieVO"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="com.multi.mvc05.MemberDAO"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
 <fullyQualifiedTypeName name="com.mysql.cj.Session"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-<fullyQualifiedTypeName name="com.multi.mvc05.MemberDTO"/>
 <fullyQualifiedTypeName name="com.multi.mvc05.BbsDAO"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="com.multi.mvc05.BbsDTO"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="com.multi.mvc05.ReplyDAO"/>
+<fullyQualifiedTypeName name="com.multi.mvc05.BbsDTO"/>
+<fullyQualifiedTypeName name="com.multi.mvc05.ReplyDTO"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.multi.mvc05.MemberDAO"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.multi.mvc05.MemberDTO"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="com.multi.mvc05.MapDTO"/>
 </qualifiedTypeNameHistroy>

@@ -7,7 +7,7 @@
 	</insert>
 	
 	<select id="one" parameterType="bbsVO" resultType="bbsVO">
-		select * from bbs where title = #{title}
+		select * from bbs where id = #{id}
 	</select>
 
 	<select id="list" parameterType="bbsVO" resultType="bbsVO">

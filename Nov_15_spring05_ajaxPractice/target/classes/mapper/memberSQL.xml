@@ -9,6 +9,10 @@
 	<select id="login" resultType="int">
 		select count(*) from member where id = #{id} and pw = #{pw}
 	</select>
+	
+	<select id="list" resultType="memberVO" parameterType="memberVO">
+		select * from member
+	</select>
 
 <!-- 
 	<delete id="delete" parameterType="bookVO">

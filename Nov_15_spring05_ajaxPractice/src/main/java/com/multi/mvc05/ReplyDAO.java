@@ -7,21 +7,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class MemberDAO {
+public class ReplyDAO {
 	
 	@Autowired
 	SqlSessionTemplate my;
 	
-	public int login(MemberDTO dto) {
-		return my.selectOne("member.login", dto);
+	public int insert(ReplyDTO dto) {
+		return my.insert("reply.insert", dto);
 	}
 	
-	public int insert(MemberDTO dto) {
-		return my.insert("member.insert",dto);
-	}
-
-	public List<MemberDTO> list() {
-		return my.selectList("member.list");
+	public List<ReplyDTO> list(int id){
+		return my.selectList("reply.list", id);
 	}
 	
 }
