@@ -9,11 +9,15 @@
       <typeAlias type="com.multi.mvc05.MemberDTO" alias="memberVO"></typeAlias>
       <typeAlias type="com.multi.mvc05.ReplyDTO" alias="replyVO"></typeAlias>
       <typeAlias type="com.multi.mvc05.BbsDTO" alias="bbsVO"></typeAlias>
+      <typeAlias type="com.multi.mvc05.MapDTO" alias="mapVO"></typeAlias>
+      <typeAlias type="com.multi.mvc05.TaskDTO" alias="taskVO"></typeAlias>
    </typeAliases>
    <mappers>
       <mapper resource="mapper/memberSQL.xml" />
       <mapper resource="mapper/replySQL.xml" />
       <mapper resource="mapper/bbsSQL.xml" />
+      <mapper resource="mapper/mapSQL.xml" />
+      <mapper resource="mapper/taskSQL.xml" />
    </mappers>
    
 </configuration>

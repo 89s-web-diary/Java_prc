@@ -14,6 +14,12 @@ public class RestController {
 	@Autowired
 	MemberDAO dao;
 	
+	@Autowired
+	MapDAO mapdao;
+	
+	@Autowired
+	TaskDAO taskdao;
+	
 	@RequestMapping("string")
 	@ResponseBody // controller에서 데이터를 리턴할 때(json) 반드시 사용
 	public String name() {
@@ -60,6 +66,26 @@ public class RestController {
 		map.setLat(35.1689766);
 		map.setLon(129.1360411);
 		return map;
+	}
+	
+	@RequestMapping("map2")
+	@ResponseBody
+	public MapDTO one(MapDTO dto) {
+		System.out.println(dto.getLocation());
+		System.out.println(mapdao.one(dto));
+		return mapdao.one(dto);
+	}
+	
+	@RequestMapping("map3")
+	@ResponseBody
+	public List<MapDTO> list() {
+		return mapdao.list();
+	}
+	
+	@RequestMapping("chart")
+	@ResponseBody
+	public List<TaskDTO> task() {
+		return taskdao.list();
 	}
 	
 }
