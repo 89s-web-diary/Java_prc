@@ -147,7 +147,7 @@ public class 경주 extends JFrame {
 			car3 차3 = new car3();
 			차3.stop();
 			car2 차2 = new car2();
-			차2.set(false);
+			//차2.set(false);
 			setVisible(false);
 			
 		}

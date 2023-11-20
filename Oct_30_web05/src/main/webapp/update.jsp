@@ -23,7 +23,7 @@
 BbsDAO dao = new BbsDAO();
 BbsDTO dto = new BbsDTO();
 
-dto.setId(request.getParameter("id"));
+dto.setId(Integer.parseInt(request.getParameter("id")));
 
 BbsDTO bag = dao.one(dto);
 %>
