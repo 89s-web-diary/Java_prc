@@ -88,7 +88,6 @@ INDEX VERSION 1.131+C:\Users\kangy\eclipse-workspace\.metadata\.plugins\org.ecli
 1532640382.index
 489215304.index
 3512098302.index
-2000420834.index
 1891338242.index
 3591829097.index
 1512894405.index
