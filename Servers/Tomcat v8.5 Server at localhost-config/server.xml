@@ -105,7 +105,7 @@
 				<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
 				<Context docBase="Nov_15_spring05_ajaxPractice" path="/mvc05" reloadable="true" source="org.eclipse.jst.jee.server:Nov_15_spring05_ajaxPractice"/>
-			<Context docBase="Nov_08_spring01" path="/mvc01" reloadable="true" source="org.eclipse.jst.jee.server:Nov_08_spring01"/></Host>
+			<Context docBase="Nov_08_spring01" path="/mvc01" reloadable="true" source="org.eclipse.jst.jee.server:Nov_08_spring01"/><Context docBase="Dec_05_mongo" path="/mvc10" reloadable="true" source="org.eclipse.jst.jee.server:Dec_05_mongo"/><Context docBase="Dec_07_paging" path="/test100" reloadable="true" source="org.eclipse.jst.jee.server:Dec_07_paging"/></Host>
 		</Engine>
 	</Service>
 </Server>

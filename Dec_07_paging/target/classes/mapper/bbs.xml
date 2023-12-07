@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="bbs">
+
+	<select id="count" resultType="int">
+		select count(*) from bbs
+	</select>
+
+	<select id="list" parameterType="pageVO" resultType="bbsVO">
+		select *
+		from (select row_number()
+		over(order by id desc) as bbs_no, id, title, content, writer
+		from bbs b) b2
+		where b2.bbs_no between ${start} and ${end}
+	</select>
+	
+</mapper>
