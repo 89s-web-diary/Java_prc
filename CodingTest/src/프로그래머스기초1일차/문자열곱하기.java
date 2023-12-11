@@ -4,8 +4,9 @@ public class 문자열곱하기 {
 
 	public static void main(String[] args) {
 		String my_string = "string";
+		int k = 4;
 		Solution4 sol = new Solution4();
-		
+		System.out.println(sol.solution(my_string, k));
 		
 		
 	}

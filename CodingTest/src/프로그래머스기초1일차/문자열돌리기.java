@@ -10,6 +10,7 @@ public class 문자열돌리기 {
         for (char c : a.toCharArray()) {
 			System.out.println(c);
 		}
+        sc.close();
     }
 
 }

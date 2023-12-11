@@ -16,4 +16,16 @@ public class PageDAO {
 		return my.selectList("bbs.list", pageVO);
 	}
 	
+	public int count() {
+		return my.selectOne("bbs.count");
+	}
+	
+	public List<CarVO> carlist(PageVO2 pageVO2) {
+		return my.selectList("car.list", pageVO2);
+	}
+	
+	public int carCnt() {
+		return my.selectOne("car.count");
+	}
+	
 }

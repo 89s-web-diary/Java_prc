@@ -17,6 +17,7 @@ public class 대소문자바꿔서 {
 			}
 		}
 		System.out.println(ans.toString());
+		sc.close();
 	}
 
 }

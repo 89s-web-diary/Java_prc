@@ -6,7 +6,6 @@ public class 정수부분 {
 		double flo = 69.88;
 		Solution3 sol = new Solution3();
 		System.out.println(sol.solution(flo));
-		
 	}
 
 }
