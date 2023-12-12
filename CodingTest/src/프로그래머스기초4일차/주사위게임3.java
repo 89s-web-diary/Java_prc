@@ -9,10 +9,9 @@ public class 주사위게임3 {
 		int d = 5;
 		Solution2 sol = new Solution2();
 		System.out.println(sol.solution(a, b, c, d));
-
 	}
-
 }
+
 // case1. 네 주사위에서 나온 숫자가 모두 p로 같다면 1111 × p점을 얻습니다. clear
 // case2. 세 주사위에서 나온 숫자가 p로 같고 나머지 다른 주사위에서 나온 숫자가 q(p ≠ q)라면 (10 × p + q)2 점을 얻습니다.
 // case3. 주사위가 두 개씩 같은 값이 나오고, 나온 숫자를 각각 p, q(p ≠ q)라고 한다면 (p + q) × |p - q|점을 얻습니다.
