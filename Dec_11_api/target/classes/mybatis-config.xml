@@ -7,12 +7,14 @@
 	<typeAliases>
 		<typeAlias type="com.multi.api.NaverVO" alias="naverVO" />
 		<typeAlias type="com.multi.api.MovieVO" alias="movieVO" />
+		<typeAlias type="com.multi.api.Movie2VO" alias="movie2VO" />
 		<typeAlias type="com.multi.api.YoungVO" alias="youngVO" />
 	</typeAliases>
 
 	<mappers>
 		<mapper resource="mapper/naver.xml" />
 		<mapper resource="mapper/movie.xml" />
+		<mapper resource="mapper/movie2.xml" />
 		<mapper resource="mapper/young.xml" />
 	</mappers>
 
